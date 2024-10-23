@@ -267,6 +267,8 @@ section {
 
 /* ABOUT SECTION */
 
+
+
 #about .section-container p {
     margin-top: 40px; /* Adjust this value as needed */
 }
@@ -275,10 +277,14 @@ section {
   position: relative;
 }
 
-.about-containers {
+/* .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+} */
+.about-containers {
+    flex: 1 1 calc(33% - 20px); /* 3 columns with space in between */
+    margin: 10px; /* Adjust as necessary for spacing */
 }
 
 .about-details-container {
@@ -337,10 +343,16 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+/* .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+} */
+.experience-details-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap into a new row */
+    justify-content: space-between; /* This distributes space evenly */
+    margin: 20px 0; /* Add margin for spacing between rows */
 }
 
 .article-container {
