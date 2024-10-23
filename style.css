@@ -397,7 +397,9 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 50px; /* Adjust this value as needed */
 }
+
 
 .contact-info-upper-container {
   display: flex;
