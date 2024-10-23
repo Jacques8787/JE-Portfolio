@@ -369,6 +369,7 @@ article .icon {
   position: relative;
   min-height: 80vh; /* Change this to a minimum height */
   padding-bottom: 2rem; /* Adds space at the bottom */
+  border-bottom: 1px solid transparent;
 }
 
 .color-container {
@@ -401,7 +402,7 @@ article .icon {
   flex-direction: column;
   min-height: 70vh; /* Change to min-height */
   margin-top: 20px; /* Adjust this value as needed */
-  padding-top: 2rem; /* Optional: Add padding to the top for spacing */
+  padding-top: 20px; /* Optional: Add padding to the top for spacing */
 }
 
 .contact-info-upper-container {
