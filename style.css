@@ -367,6 +367,8 @@ article .icon {
 
 #projects {
   position: relative;
+  min-height: 80vh; /* Change this to a minimum height */
+  padding-bottom: 2rem; /* Adds space at the bottom */
 }
 
 .color-container {
@@ -397,10 +399,10 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
-  margin-top: 50px; /* Adjust this value as needed */
+  min-height: 70vh; /* Change to min-height */
+  margin-top: 20px; /* Adjust this value as needed */
+  padding-top: 2rem; /* Optional: Add padding to the top for spacing */
 }
-
 
 .contact-info-upper-container {
   display: flex;
