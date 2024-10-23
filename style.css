@@ -381,7 +381,7 @@ article .icon {
   position: relative;
   min-height: 80vh; /* Change this to a minimum height */
   padding-bottom: 2rem; /* Adds space at the bottom */
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .color-container {
