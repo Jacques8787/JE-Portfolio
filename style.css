@@ -383,7 +383,10 @@ article .icon {
   min-height: 80vh; /* Change this to a minimum height */
   padding-bottom: 2rem; /* Adds space at the bottom */
   margin-bottom: 200px;
+  max-width: 1200px; /* Limit the max width of the section */
+  margin: 0 auto; /* Centers the section horizontally */
 }
+
 
 .color-container {
   border-color: rgb(163, 163, 163);
