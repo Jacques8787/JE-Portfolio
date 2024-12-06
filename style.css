@@ -417,7 +417,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   min-height: 70vh; /* Change to min-height */
-  margin-top: 20px; /* Adjust this value as needed */
+  margin-top: 50px; /* Adjust this value as needed */
   padding-top: 20px; /* Optional: Add padding to the top for spacing */
 }
 
