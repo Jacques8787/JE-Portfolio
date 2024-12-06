@@ -382,7 +382,7 @@ article .icon {
   position: relative;
   min-height: 80vh; /* Change this to a minimum height */
   padding-bottom: 2rem; /* Adds space at the bottom */
-  margin-bottom: 200px;
+  margin-bottom: 0;
   max-width: 1200px; /* Limit the max width of the section */
   margin: 0 auto; /* Centers the section horizontally */
 }
@@ -416,7 +416,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-height: 70vh; /* Change to min-height */
+  min-height: auto; /* Change to min-height */
   margin-top: 10px; /* Adjust this value as needed */
   padding-top: 20px; /* Optional: Add padding to the top for spacing */
 }
