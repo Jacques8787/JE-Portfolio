@@ -153,13 +153,20 @@ a:hover {
 
 /* SECTIONS */
 
-section {
+/* section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+} */
+section {
+  padding-top: 4vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content; /* Let the section grow with its content */
 }
+
 
 .section-container {
   display: flex;
