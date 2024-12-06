@@ -486,22 +486,23 @@ html body section#projects div.experience-details-container div.about-containers
     padding-top: 50px; /* Adjust this value as needed */
 }
 .section__pic-container {
-  max-width: 100%; /* Prevent the container from exceeding the width of the parent */
-  text-align: center; /* Optional: center-align the image and caption */
+  max-width: 100%; /* Ensure the container doesn't exceed the parent width */
+  text-align: center; /* Center-align the image and caption */
+  margin: 0 auto; /* Center the container within its parent */
+  width: 300px; /* Adjust this to set an appropriate width for the image */
 }
 
 .section__pic-container img {
-  max-width: 100%; /* Ensure the image scales down to fit the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto; /* Maintain the image's aspect ratio */
 }
 
 figure {
-  margin: 0; /* Reset default browser margins */
-  display: inline-block; /* Optional: keep the image and caption as a single block */
+  margin: 0; /* Remove extra space added by default */
 }
 
 figcaption {
-  font-size: 0.9em; /* Adjust caption size if needed */
+  font-size: 0.9em; /* Adjust font size for the caption */
   color: #555; /* Optional: set a softer color for captions */
-  text-align: center; /* Center the caption */
+  text-align: center; /* Center-align the caption text */
 }
