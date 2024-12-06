@@ -459,3 +459,10 @@ footer {
 footer p {
   text-align: center;
 }
+div.about-containers:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1) {
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+
+div.about-containers:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1):hover {
+    transform: scale(0.9); /* Scales the image to 90% of its size */
+}
