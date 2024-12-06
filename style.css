@@ -466,3 +466,8 @@ div.about-containers:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nt
 div.about-containers:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1):hover {
     transform: scale(0.9); /* Scales the image to 90% of its size */
 }
+html body section#projects div.experience-details-container div.about-containers div.details-container.color-container div.article-container img.project-img {
+    width: 100%; /* Make the image fit the container's width */
+    height: 100%; /* Make the image fit the container's height */
+    object-fit: contain; /* Ensure the entire image is visible */
+}
