@@ -471,3 +471,6 @@ html body section#projects div.experience-details-container div.about-containers
     height: 100%; /* Make the image fit the container's height */
     object-fit: contain; /* Ensure the entire image is visible */
 }
+#experience {
+    padding-top: 50px; /* Adjust this value as needed */
+}
