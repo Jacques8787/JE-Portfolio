@@ -47,6 +47,7 @@ nav {
 
 .text-container {
     margin-top: 20px; /* Adds space between the boxes and the narrative */
+  font-size: 20px;
 }
 
 a {
