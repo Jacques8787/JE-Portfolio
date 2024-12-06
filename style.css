@@ -485,3 +485,23 @@ html body section#projects div.experience-details-container div.about-containers
 #experience {
     padding-top: 50px; /* Adjust this value as needed */
 }
+.section__pic-container {
+  max-width: 100%; /* Prevent the container from exceeding the width of the parent */
+  text-align: center; /* Optional: center-align the image and caption */
+}
+
+.section__pic-container img {
+  max-width: 100%; /* Ensure the image scales down to fit the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+figure {
+  margin: 0; /* Reset default browser margins */
+  display: inline-block; /* Optional: keep the image and caption as a single block */
+}
+
+figcaption {
+  font-size: 0.9em; /* Adjust caption size if needed */
+  color: #555; /* Optional: set a softer color for captions */
+  text-align: center; /* Center the caption */
+}
